@@ -3038,10 +3038,16 @@ h6 {
 }
 .blog-card-four__title {
   color: var(--kidearn-black, #0B2038);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   margin-top: 15px;
   margin-bottom: 23px;
+  font-family: unset;
+}
+
+.blog-card-four__title p {
+  font-size: 18px;
+  line-height: 1.4;
 }
 @media (min-width: 768px) {
   .blog-card-four__title {
