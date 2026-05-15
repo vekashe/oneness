@@ -14346,4 +14346,26 @@ body.boxed-wrapper .page-wrapper {
   max-width: 116px;
   margin: 0 auto;
 }
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: stretch;
+}
+.owl-carousel.owl-drag .owl-item {
+  height: unset;
+}
+.owl-carousel.owl-drag .owl-item .item {
+  height: 100%;
+}
+.owl-carousel.owl-drag .owl-item .blog-card-four {
+  height: 100%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.blog-card-four__image-wrapper {
+  height: unset;
+}
+.blog-card-four__content {
+  height: 100%;
+}
 /*# sourceMappingURL=kidearn.css.map */
